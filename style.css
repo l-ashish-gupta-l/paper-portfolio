@@ -57,14 +57,14 @@ html,body{
     border-right: 1px #222 solid;
      margin-inline: auto;
     width: 95vw;
-    height: 100%;
+    
     
   
 }
 
 .page1{
    width:100%;
-   height: 100vh;
+   height: 140vh;
    border: 1px solid red;
   
    
@@ -97,10 +97,10 @@ html,body{
     border-right: 1px solid #222;
     /* background-color: lightblue; */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 3%;
+    padding: 4%;
   }
 
   .img-div{
@@ -181,3 +181,84 @@ html,body{
      font-weight: 800;
     margin-bottom: 5%;
   }
+
+  .miranda{
+  width: 100%;
+  height: 65vh;
+    background-color: #1C1C19;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .miranda h1{
+  
+    font-size: 36vw;
+    font-family: canopee;
+    font-weight: 500;
+    letter-spacing: -30px;
+    color: #C5BDB4;
+
+  }
+
+
+  .page2{
+    width: 100%;
+    height: 150vh;
+    /* background-color: aqua; */
+  }
+
+  .leftdiv{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #202020;
+  }
+
+  .leftimgdiv{
+    width: 80%;
+    height: 50%;
+    margin-left: -10%;
+    border: 1px solid black;
+  }
+
+.leftimgdiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.leftdiv h1{
+  font-family: canopee;
+  font-size: 7em;
+  /* margin-inline: auto; */
+  margin-left: 20px;
+  line-height: 1.2em;
+}
+
+.leftdiv h1 span{
+    font-size: 1.8em;
+}
+
+.leftdiv p{
+    width: 90%;
+    margin-top: 4%;
+    font-size: 2.3em;
+    margin-left: 3% ;
+    color:  #1C1C19;
+    flex-wrap: wrap;
+}
+
+.leftdiv p span{
+    background-color: #1C1C19;
+    border-radius: 5px ;
+    color: #C5BDB4;
+    font-size: 1.5em;
+    margin-right: 4px;
+    margin-left: 10px;
+    padding: 5px;
+}
