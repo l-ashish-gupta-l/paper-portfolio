@@ -143,7 +143,7 @@ html,body{
 
   .cards1 p{
     width: 90%;
-   color: #555350;
+   color: #1C1B19;
    font-family: domain;
     font-size: 1.5rem;
     height: 30%;
@@ -381,6 +381,7 @@ display: flex;
  font-size: 4em;
  font-weight: 600;
  font-family: canopee;
+ color: #1C1B19;
 }
 
 .page3card1 h3{
@@ -394,6 +395,7 @@ line-height: 1em;
 .page3card1 p{
   font-size: 1.8em;
   margin-top: 10%;
+  color: #1C1B19;
 }
 
 .page3card1 p span{
@@ -406,6 +408,7 @@ line-height: 1em;
   font-size: 1.8em;
   width: 90%;
   margin-top: 2%;
+  color: #1C1B19;
 }
 .imgd img{
   width: 120%;
@@ -456,5 +459,86 @@ scale: 1.1;
   margin-top: 5%;
   width: 34%;
   height: 140vh;
-  background-color: #3F3E39;
+  /* background-color: #3F3E39; */
+  padding: 0 2%;
+}
+
+
+
+.page3right h2{
+  margin-top: 2%;
+  font-size: 7em;
+  font-weight: 400;
+  letter-spacing: -5px;
+  font-family: canopee;
+  
+}
+
+.page3right h1{
+  margin-top: -8%;
+ 
+  font-size: 14em;
+  font-weight: 400;
+  letter-spacing: -5px;
+  font-family: canopee;
+}
+
+.page3right p{
+  font-size: 2em;
+  margin-top: 7%;
+  color: #1C1B19;
+}
+
+.page3right p span{
+  background-color: #1C1B19;
+  color: #C2BAB0;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 1%;
+  font-size: 2.3em;
+  
+}
+
+.swiper{
+   background-color: #CBC2B7;
+   border-radius: 50%;
+   width: 80%;
+   height: 18%;
+   margin-top: 13%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #1C1C19;
+   position: relative;
+   overflow: hidden;
+   margin-inline: auto;
+}
+
+.swiper:hover img{
+  transform: translateX(0%);
+}
+.swiper:hover h3{
+  transform: translateX(150%);
+}
+
+.swiper h3{
+  font-family: canopee;
+  font-size: 4em;
+  font-weight: 400;
+  position: absolute;
+  transition: ease-in-out 0.8s;
+
+}
+
+.swiper img{
+  position: absolute;
+  transform: translateX(-210%);
+  transition: ease-in-out 0.8s;
+}
+
+.page4{
+  width: 100%;
+  height: 150vh;
+  background-color: aqua;
+  margin-top: 8%;
 }
