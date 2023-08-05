@@ -1,0 +1,308 @@
+@media (max-width:500px ) {
+          .nav h5{
+            display: none;
+          } 
+          .logo-nav{
+            width: 50vh;
+            height: 50%;
+            margin-left:2%;
+          }
+          .icon-nav{
+            width: 8%;
+            height: 8%;
+          }
+          .page1-cards{
+            display: none;
+          }
+
+          .miranda{
+            margin-top: 5%;
+          }
+
+          .miranda h1{
+            font-size: 8rem;
+            letter-spacing: 0;
+        
+          }
+          .page2{
+            height: 100%;
+            margin-top: -120%;
+            /* background-color: red; */
+           display: flex;
+           flex-direction: column;
+          }
+
+          .leftdiv{
+            margin-top: 2%;
+            /* background-color: aqua; */
+            width: 100%;
+            height: 200%;
+          }
+
+          .leftdiv h1{
+            font-size: 4em;
+            margin-left: 20%;
+          }
+          .leftimgdiv{
+            width: 70%;
+            height: 70%;
+            margin-left:1%;
+          }
+          .leftdiv p{
+            font-size: 2em;
+          }
+          
+         .rightdiv{
+            /* background-color: blue; */
+            width: 100%;
+            margin-top: 5%;
+
+         }
+         .rightdiv img{
+            width: 90%;
+            /* background-color: aqua; */
+            /* height: 00%; */
+         }
+         .rightdiv h1{
+            font-size: 3em;
+            line-height: 1.5em;
+            
+         }
+         .page3{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            /* background-color: red; */
+         }
+         .upperdiv{
+            width: 100%;
+            margin-top: 2%;
+            height: 20%;
+            /* background-color: aqua; */
+         }
+          .heading{
+            width: 100%;
+            height: 100%;
+           
+          }
+          .heading h1{
+            font-size: 11em;
+            letter-spacing: 0;
+          }
+          .upperdiv img{
+            display: none;
+          }
+          .alignment{
+            display: flex;
+            /* height: 00%; */
+            flex-direction: column;
+            /* background-color: aqua; */
+          }
+          .page3left{
+            width: 100%;
+            height: 80%;
+            border: none;
+          }
+          .cardsdiv{
+            margin-top: 2%;
+            width: 100%;
+            height: 30%;
+            /* background-color: antiquewhite; */
+          }
+          .page3card1{
+            width: 50%;
+            height: 100%;
+            /* background-color: black; */
+          }
+          
+          .page3card2{
+            width: 50%;
+            height: 100%;
+            /* background-color: black; */
+          }
+
+          .page3card1 h1{
+            font-size: 2em;
+            
+          }
+          .page3card2 h1{
+            font-size: 2em;
+            
+          }
+          .page3card1 h3{
+            font-size: 1.3em;
+
+          }
+          .page3card1 p{
+            font-size: 1.3em;
+
+          }
+          .page3card2 p{
+            font-size: 1em;
+
+          }
+          .page3imgdiv{
+            margin-top: 5%;
+          }
+
+          .page3right{
+            width: 100%;
+            height: 50%;
+            position: relative;
+          }
+          .page3right h2{
+            font-size: 5em;
+            margin-left: 4%;
+            letter-spacing: 0;
+          }
+          .page3right h1{
+            font-size: 12.5em;
+            /* line-height: 1em; */
+            
+          }
+
+          .page3right p{
+            font-size: 1.5em;
+            /* margin-top: -1.5%; */
+          }
+
+          .swiper{
+            margin-top: 10%;
+            width: 60%;
+            margin-left: 15%;
+            height: 20%;
+            /* z-index: 99; */
+            
+            position: absolute;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          .page4{
+            margin-top: 200px;
+            width: 100%;
+            height: 130vh;
+            background-color: red;
+            display: flex;
+            flex-direction: column;
+          }
+          .slider{
+            width: 100%;
+            height: 50%;
+
+          }
+          .cards{
+            width: 25%;
+            height: 100%;
+          }
+
+          .innerdiv div p{
+            font-size: 1.2em ;
+          }
+          .ctc {
+            width: 50%;
+            height: 30%;
+            margin-top: -3%;
+          }
+          .lineslider{
+            width: 100%;
+            height: 15%;
+          }
+          .lineslider h1{
+            font-size: 2em;
+            letter-spacing: 0;
+          }
+          .footer {
+            display: flex;
+            flex-direction: column;
+          }
+          .left{
+            display: flex;
+            flex-direction: column;
+          }
+          .left h1{
+           font-size: 2em;
+           width: 130%;
+           margin-left: 30%;
+           /* background-color: aqua; */
+          }
+          .left img{
+            display: none;
+          }
+          .left p{
+            font-size: 2em;
+            display: none;
+          }
+
+          .right{
+            margin-top: 8%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .right h1{
+            font-size: 2em;
+            line-height: 1.5em;
+            margin-inline: auto;
+          }
+        }
