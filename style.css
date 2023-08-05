@@ -54,8 +54,8 @@ html,body{
 }
 
 #container{
-    border-left: 1px #222 solid;
-    border-right: 1px #222 solid;
+    /* border-left: 1px #222 solid; */
+    /* border-right: 1px #222 solid; */
      margin-inline: auto;
     width: 95vw;
     
@@ -66,7 +66,7 @@ html,body{
 .page1{
    width:100%;
    height: 140vh;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   
    
   }
@@ -540,7 +540,7 @@ scale: 1.1;
 
 .page4{
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   /* background-color: aqua; */
   margin-top: 8%;
 }
@@ -548,7 +548,7 @@ scale: 1.1;
 .slider{
   width: 100%;
   height: 55vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   overflow-x: hidden;
  display: flex;
   padding: 0 1%;
@@ -560,50 +560,206 @@ scale: 1.1;
 
 .lineslider{
   width: 100%;
-  height: 25vh;
+  height: 15vh;
+  display: flex;
+  margin-top: 2%;
+  overflow-x: hidden;
+  /* justify-content: center; */
+  align-items: center;
+  /* flex-wrap: nowrap; */
   /* background-color: aqua; */
   border-top: 1px solid #1C1B19;
   border-bottom: 1px solid #1C1B19;
+  /* position: relative; */
+  white-space: nowrap;
 }
 
-.footer{
-  width: 100%;
-  height: 20vh;
-  /* background-color: red; */
-}
 
 #cards{
   width: 92vh;
   height: 98%;
-  /* background-color: grey; */
+  background-color: #C6BFB5;
   margin-right: 10px;
   position: absolute;
-  box-shadow: -2px 2px 10px;
+  box-shadow: -1px 0px 5px;
   border: 1px solid #1C1B19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   transition: all linear 0.8s;
+ 
 }
 
 #cards:nth-child(1){
-  background-color: red;
+  /* background-color: red; */
   transform: translateX(0);
   z-index:1;
 }
 
 #cards:nth-child(2){
-  background-color: blue;
+  /* background-color: blue; */
   transform: translateX(40%);
   z-index:2;
 }
 
 #cards:nth-child(3){
-  background-color: yellow;
+  /* background-color: yellow; */
   transform: translateX(80%);
   z-index:3;
 }
 
 #cards:nth-child(4){
-  background-color: green;
+  /* background-color: green; */
   transform: translateX(120%);
   z-index: 4;
 }
+
+.innerdiv{
+  width: 90%;
+  height: 90%;
+  /* background-color: #1C1C19; */
+  border-radius: 10px;
+  border: 1px dashed #1C1B19;
+  overflow: hidden;
+  padding: 2%;
+}
+
+.innerdiv div p{
+  color: #1C1B19;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.innerdiv div {
+  width: 80%; 
+  height: 60%;
+}
+
+.ctc img{
+  border-radius: 50%;
+  height: 30%;
+  border: 1px solid #1C1B19;
+  
+}
+.ctc{
+  display:flex;
+  margin-top: 10%;
+}
+
+.ctc h1{
+  font-family: canopee;
+  font-size: 2.5em;
+  font-weight: 400;
+  
+}
+
+.ctc div{
+  margin-left: 3%;
+}
+
+.ctc div p{
+  font-size: 1.5em;
+}
+
+.lineslider h1{
+  /* width: 100%; */
+  font-size: 5.5em;
+  font-weight: 200;
+  letter-spacing: -3px;
+  display: inline-block;
+  /* margin-right: 10px; */
+  /* position: absolute; */
+  animation-name: scroll;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  
+}
+.lineslider h1 span{
+  background-color: #1C1C19;
+  color: #C2BAB0;
+  border-radius: 3%;
+  padding: 0 1%;
+  font-size:.8em ;
+  font-family: canopee;
+  
+  margin-right: 10px;
+}
+
+@keyframes scroll{
+       0%{
+        transform: translateX(0%);
+       }
+       100%{
+        transform: translateX(calc(-100%));
+       
+      }
+}
+
+.lineslider:hover h1{
+  animation-play-state: paused;
+}
+  .footer{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2%;
+  }
+
+  .left{
+    width: 25%;
+    height: 90%;
+    /* background-color: #1C1C19; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+  }
+
+  .right{
+    width: 38%;
+    height: 90%;
+    /* background-color: lightblue; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+     
+    
+  }
+
+  .left h1{
+    font-family: canopee;
+    font-size: 3em;
+    font-weight: 400;
+  }
+
+  .left img{
+    width: 10%;
+    height: 60%;
+    margin-left: 5%;
+  }
+
+  .left p{
+    margin-left: 5%;
+    font-size: 3em;
+    color: #1C1C19;
+  }
+
+  .right h1{
+    font-family: canopee;
+    font-size: 3em;
+    font-weight: 400;
+    /* float: right; */
+    margin-left: 4%;
+    right: 0;
+    font-weight: 400;
+  }
+
+  .right h1:hover {
+    scale: 1.2;
+  }
