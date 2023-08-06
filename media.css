@@ -188,12 +188,27 @@
           .slider{
             width: 100%;
             height: 50%;
+            display: block;
+          
 
           }
-          .cards{
-            width: 25%;
-            height: 100%;
+          #cards:nth-child(1){
+            width: 98%;
           }
+          
+          #cards:nth-child(2){
+            display: none;
+            z-index: 1;
+          
+          }
+          #cards:nth-child(3){
+            display: none;
+          }
+          #cards:nth-child(4){
+            display: none;
+          }
+          
+          
 
           .innerdiv div p{
             font-size: 1.2em ;
@@ -217,6 +232,7 @@
           }
           .left{
             display: flex;
+            height: 50%;
             flex-direction: column;
           }
           .left h1{
@@ -238,6 +254,7 @@
             width: 50%;
             display: flex;
             flex-direction: column;
+            /* height: 50%; */
           }
 
           .right h1{

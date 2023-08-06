@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    /* overflow: hidden; */
     
 }
 
@@ -28,7 +29,7 @@ html,body{
 }
 
 .nav h5{
-    font-size: 1.1rem;
+    font-size: 1.1em;
   font-family: canopee;
   font-weight: 300;
   text-transform: u;
@@ -224,6 +225,7 @@ html,body{
   .leftdiv{
     width: 35%;
     height: 100%;
+    overflow: hidden;
     /* background-color: red; */
     display: flex;
     /* justify-content: center; */
@@ -278,6 +280,7 @@ html,body{
 .rightdiv{
   width: 65%;
   height: 100%;
+  overflow: hidden;
   /* background-color: aqua; */
   display: flex;
   /* justify-content: center; */
@@ -339,7 +342,7 @@ color: #C5BDB4;
   height: 97%;
   background-color: #1C1C19;
   display: flex;
-
+overflow: hidden;
   align-items: center;
 }
 
@@ -371,6 +374,7 @@ display: flex;
 
 .page3card1{
   width: 45%;
+  overflow: hidden;
   height: 95%;
   /* background-color: lightblue; */
   margin-right: 20px;
@@ -384,6 +388,7 @@ display: flex;
   width: 55%;
   height: 95%;
   /* background-color: lightblue; */
+  overflow: hidden;
 }
 
 .page3card1 h1{
@@ -425,6 +430,7 @@ line-height: 1em;
   height: 100%;
   object-fit: cover;
   scale: 1;
+  overflow: hidden;
   transition: ease-in-out 0.8s;
 }
 
@@ -467,8 +473,9 @@ scale: 1.1;
 
 .page3right{
   margin-top: 5%;
-  width: 34%;
+  width: 35%;
   max-height: 140vh;
+  overflow: hidden;
 
   /* background-color: #3F3E39; */
   padding: 0 2%;
@@ -543,7 +550,7 @@ scale: 1.1;
 
 .swiper img{
   position: absolute;
-  transform: translateX(-210%);
+  transform: translateX(-250%);
   transition: ease-in-out 0.8s;
 }
 
@@ -597,6 +604,7 @@ scale: 1.1;
   align-items: center;
   border-radius: 10px;
   transition: all linear 0.8s;
+  overflow: hidden;
  
 }
 
@@ -643,6 +651,7 @@ scale: 1.1;
 .innerdiv div {
   width: 80%; 
   height: 60%;
+  overflow: hidden;
 }
 
 .ctc img{
@@ -683,6 +692,7 @@ scale: 1.1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  /* overflow: hidden; */
 
   
 }
@@ -693,7 +703,7 @@ scale: 1.1;
   padding: 0 1%;
   font-size:.8em ;
   font-family: canopee;
-  
+  overflow: hidden;
   margin-right: 10px;
 }
 
@@ -728,6 +738,7 @@ scale: 1.1;
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
+    /* overflow: hidden; */
   }
 
   .right{
@@ -736,7 +747,7 @@ scale: 1.1;
     /* background-color: lightblue; */
     display: flex;
     /* justify-content: space-evenly; */
-    
+    /* overflow: hidden; */
      
     
   }
