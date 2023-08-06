@@ -29,7 +29,7 @@ html,body{
 }
 
 .nav h5{
-    font-size: 1.1em;
+    font-size: 1.1vw;
   font-family: canopee;
   font-weight: 300;
   text-transform: u;
@@ -47,7 +47,7 @@ html,body{
 .icon-nav{
     width: 1.5vw;
     height: 1.5vh;
-    font-size: 1rem;
+    font-size: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,8 @@ html,body{
 
   .cards2{
   
-    min-width: 20vw;
+    min-width: 25vw;
+    max-width: 25vw;
     max-height: 60vh;
     overflow: hidden;
     width: 25%;
@@ -136,15 +137,15 @@ html,body{
 
   .cards1 h4{
     margin-top: 2%;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: 500;
     font-family: canopee;
-    line-height: 2rem;
+    line-height: 2em;
 
   }
 
   .cards1 h4 span{
-    font-size: 1.7rem;
+    font-size: 1.5vw;
     border-radius: 5px;
     padding: 2px;
     background-color: orangered;
@@ -156,18 +157,18 @@ html,body{
     width: 90%;
    color: #1C1B19;
    font-family: domain;
-    font-size: 1.5em;
+    font-size: 1.3vw;
     height: 30%;
     margin-top: 1%;
     /* background-color: aqua; */
-    line-height: 1.5rem ;
+    line-height: 1.2em ;
   }
 
   .cards2 h2{
     font-family: canopee;
-    font-size: 4em;
+    font-size: 4vw;
     font-weight: 550;
-    line-height: 4.3rem;
+    line-height: 1.2em;
     
   }
 
@@ -178,17 +179,18 @@ html,body{
     width: 100%;
     margin-left: 15%;
     height: 60%;
-    font-size: 2rem;
+    font-size: 1.5vw;
     /* letter-spacing: -2px; */
-    margin-top: 5%;
-    line-height: 2rem;
+    /* margin-top: 5%; */
+    line-height: 1.5em;
     font-weight: 500;
     color: #3F3E39;
+    margin-top: 10%;
   }
 
   .cards2 h3 span{
     color: #202020;
-    font-size: 2.1rem;
+    font-size: 1.5em;
      font-weight: 800;
     margin-bottom: 5%;
   }
@@ -248,7 +250,7 @@ html,body{
 
 .leftdiv h1{
   font-family: canopee;
-  font-size: 7em;
+  font-size: 7vw;
   /* margin-inline: auto; */
   margin-left: 20px;
   line-height: 1.2em;
@@ -261,7 +263,7 @@ html,body{
 .leftdiv p{
     width: 90%;
     margin-top: 4%;
-    font-size: 2.3em;
+    font-size: 2.3vw;
     margin-left: 3% ;
     color:  #1C1C19;
     flex-wrap: wrap;
@@ -297,7 +299,7 @@ html,body{
 
 .rightdiv h1{
   font-family: canopee;
-  font-size: 7.8em;
+  font-size: 7.5vw;
   line-height: .9em;
   font-weight: 500;
   margin-top: 5%;
@@ -330,9 +332,9 @@ html,body{
 
 .heading h1{
 font-weight: 500;
-font-size: 33.5em;
+font-size: 30vw;
 
-letter-spacing: -30px;
+letter-spacing: -1vw;
 font-family: canopee;
 color: #C5BDB4;
 }
@@ -393,7 +395,7 @@ display: flex;
 
 .page3card1 h1{
  
- font-size: 4em;
+ font-size: 4vw;
  font-weight: 600;
  font-family: canopee;
  color: #1C1B19;
@@ -401,7 +403,7 @@ display: flex;
 
 .page3card1 h3{
   color:#1C1C19;
-  font-size: 2.5em;
+  font-size: 2.5vw;
 margin-top: 4%;
 line-height: 1em;
   font-weight: 500;
@@ -414,13 +416,13 @@ line-height: 1em;
 }
 
 .page3card1 p span{
-  font-size: 1.3em;
+  font-size: 1.3vw;
   font-weight: 600;
   margin-left: -10px;
 }
 
 .page3card2 p{
-  font-size: 1.8em;
+  font-size: 1.8vw;
   width: 90%;
   margin-top: 2%;
   color: #1C1B19;
@@ -447,7 +449,7 @@ scale: 1.1;
 }
 
 .page3card2 h1{
-  font-size: 3em;
+  font-size: 3vw;
   font-family: canopee;
 }
 
@@ -485,7 +487,7 @@ scale: 1.1;
 
 .page3right h2{
   margin-top: 2%;
-  font-size: 7em;
+  font-size: 6.5vw;
   font-weight: 400;
   letter-spacing: -5px;
   font-family: canopee;
@@ -495,14 +497,14 @@ scale: 1.1;
 .page3right h1{
   margin-top: -8%;
  
-  font-size: 14em;
+  font-size: 14vw;
   font-weight: 400;
   letter-spacing: -5px;
   font-family: canopee;
 }
 
 .page3right p{
-  font-size: 2em;
+  font-size: 2vw;
   margin-top: 7%;
   color: #1C1B19;
 }
@@ -521,8 +523,8 @@ scale: 1.1;
    background-color: #CBC2B7;
    border-radius: 50%;
    width: 80%;
-   height: 18%;
-   margin-top: 13%;
+   height: 15%;
+   /* margin-top: 13%; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -541,7 +543,7 @@ scale: 1.1;
 
 .swiper h3{
   font-family: canopee;
-  font-size: 4em;
+  font-size: 4vw;
   font-weight: 400;
   position: absolute;
   transition: ease-in-out 0.8s;
@@ -644,7 +646,7 @@ scale: 1.1;
 
 .innerdiv div p{
   color: #1C1B19;
-  font-size: 2em;
+  font-size: 2vw;
   font-weight: 100;
 }
 
@@ -667,7 +669,7 @@ scale: 1.1;
 
 .ctc h1{
   font-family: canopee;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   font-weight: 400;
   
 }
@@ -677,12 +679,12 @@ scale: 1.1;
 }
 
 .ctc div p{
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
 .lineslider h1{
   /* width: 100%; */
-  font-size: 5.5em;
+  font-size: 5.5vw;
   font-weight: 200;
   letter-spacing: -3px;
   display: inline-block;
@@ -701,7 +703,7 @@ scale: 1.1;
   color: #C2BAB0;
   border-radius: 3%;
   padding: 0 1%;
-  font-size:.8em ;
+  font-size:4.8vw;
   font-family: canopee;
   overflow: hidden;
   margin-right: 10px;
@@ -754,7 +756,7 @@ scale: 1.1;
 
   .left h1{
     font-family: canopee;
-    font-size: 3em;
+    font-size: 3vw;
     font-weight: 400;
   }
 
@@ -766,13 +768,13 @@ scale: 1.1;
 
   .left p{
     margin-left: 5%;
-    font-size: 3em;
+    font-size: 3vw;
     color: #1C1C19;
   }
 
   .right h1{
     font-family: canopee;
-    font-size: 3em;
+    font-size: 3vw;
     font-weight: 400;
     /* float: right; */
     margin-left: 4%;
