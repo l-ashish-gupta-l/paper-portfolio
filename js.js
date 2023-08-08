@@ -42,3 +42,28 @@ card3.addEventListener("mouseleave", function(){
     // card3.style.transform = "translateX(80%)"
     card4.style.transform = "translateX(120%)"
 } )
+
+
+
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#container'),
+    smooth: true
+});
+
+
+var tl = gsap.timeline()
+
+tl.from("#main",{
+  y : 1000,
+//   delay :1,
+  duration : 2,   
+     
+})
+tl.from("#main",{
+    
+    scale : 0.5,
+    // delay : 1 ,
+    duration : 1.5,
+    rotate : 360
+})
