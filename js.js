@@ -55,7 +55,7 @@ const scroll = new LocomotiveScroll({
 var tl = gsap.timeline()
 
 tl.from("#main",{
-  y : 1000,
+  y : 2000,
 //   delay :1,
   duration : 2,   
      

@@ -1,7 +1,11 @@
-@media (max-width:500px ) {
+@media (max-width:600px ) {
           .nav h5{
             display: none;
           } 
+          
+          #main{
+            height: 3400px;
+          }
           .logo-nav{
             width: 50vh;
             height: 50%;
@@ -12,24 +16,25 @@
             height: 8%;
           }
           .page1{
-            height: 20vh;
+            height: 30vh;
           }
           .page1-cards{
             display: none;
           }
 
           .miranda{
-            margin-top: 5%;
+            margin-top: 8%;
           }
 
           .miranda h1{
-            font-size: 15vw;
+            font-size: 10rem;
+            /* padding-left: 30px; */
             letter-spacing: 0;
         
           }
           .page2{
             height: 100%;
-            /* margin-top: -120%; */
+            margin-top: 20%;
             /* background-color: red; */
            display: flex;
            flex-direction: column;
@@ -43,16 +48,16 @@
           }
 
           .leftdiv h1{
-            font-size: 15vw;
+            font-size: 5rem;
             margin-left: 15%;
           }
           .leftimgdiv{
-            width: 70%;
-            height: 70%;
-            margin-left:1%;
+            width: 50%;
+            height: 50%;
+            margin:5%;
           }
           .leftdiv p{
-            font-size: 10vw;
+            font-size: 1.5rem;
           }
           
          .rightdiv{
@@ -62,12 +67,13 @@
 
          }
          .rightdiv img{
-            width: 90%;
+            width: 70%;
+            margin: 5%;
             /* background-color: aqua; */
             /* height: 00%; */
          }
          .rightdiv h1{
-            font-size: 10vw;
+            font-size: 10rem15rem;
             line-height: 1.5em;
             
          }
@@ -91,7 +97,7 @@
            
           }
           .heading h1{
-            font-size: 20vw;
+            font-size: 20rem15rem;
             margin-inline: auto;
             letter-spacing: 0;
           }
@@ -128,27 +134,27 @@
           }
 
           .page3card1 h1{
-            font-size: 8vw;
+            font-size: 1.3rem;
             
           }
           .page3card2 h1{
-            font-size: 8vw;
+            font-size: 1.3rem;
             
           }
           .page3card1 h3{
-            font-size: 5vw;
+            font-size: 1.2rem;
 
           }
           .page3card1 p{
-            font-size: 5vw;
+            font-size: 1.2rem;
 
           }
           .page3card1 p span{
-            font-size: 8vw;
+            font-size: 1.2rem;
             margin-left: 2%;
           }
           .page3card2 p{
-            font-size: 4vw;
+            font-size: 1rem;
 
           }
           .page3imgdiv{
@@ -161,24 +167,27 @@
             position: relative;
           }
           .page3right h2{
-            font-size: 16vw;
+            font-size: 3rem;
             margin-left: 4%;
             letter-spacing: 0;
+            text-align: center;
           }
           .page3right h1{
-            font-size: 40vw;
+            font-size: 4rem;
+            margin-top: 2%;
+            text-align: center;
             /* line-height: 1em; */
             
           }
 
           .page3right p{
-            font-size: 6vw;
+            font-size: 1.2rem;
             /* margin-top: -1.5%; */
           }
 
           .swiper{
             margin-top: 10%;
-            width: 50vw;
+            width: 200px;
             height: 20vh;
             /* margin-left: 15%; */
             /* height: 20%; */
@@ -187,7 +196,7 @@
             /* position: absolute; */
           }
           .swiper h3 {
-            font-size: 10vw;
+            font-size: 2rem;
 
           }
           .swiper img{
@@ -229,22 +238,22 @@
           
 
           .innerdiv div p{
-            font-size: 5vw ;
+            font-size: 1.2rem ;
           }
           .ctc h1{
-            font-size: 8vw;
+            font-size: 2rem;
           }
           .ctc {
             width: 50%;
             height: 30%;
-            margin-top: -3%;
+            margin-top: 3%;
           }
           .lineslider{
             width: 100%;
             height: 15%;
           }
           .lineslider h1{
-            font-size: 10vw;
+            font-size: 2rem;
             letter-spacing: 0;
           }
           .footer {
@@ -257,16 +266,16 @@
             flex-direction: column;
           }
           .left h1{
-           font-size: 8vw;
+           font-size: 2rem;
            width: 150%;
-           /* margin-left: 30%; */
+           margin-left: 40%;
            /* background-color: aqua; */
           }
           .left img{
             display: none;
           }
           .left p{
-          font-size: 10vw;
+          font-size: 2rem;
             display: none;
           }
 
@@ -279,7 +288,7 @@
           }
 
           .right h1{
-            font-size: 8vw;
+            font-size: 2rem;
             line-height: 1.5em;
             margin-inline: auto;
           }
